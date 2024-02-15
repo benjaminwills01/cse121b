@@ -1,0 +1,71 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: ivory;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Search form styles */
+#search-form {
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+/* Button Styles */
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: cadetblue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: dimgray;
+}
+
+/* Main section styles */
+#recipe-container {
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: cadetblue;
+  font-size: 15px;
+}
